@@ -108,14 +108,56 @@
         </button>
       </section>
 
-      <section class="subscribe">
-        <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
+    </main>
+
+    <footer class="page-footer">
+
+      <section class="footer-subscribe">
+        <h2 class="footer-subscribe-title">Подпишитесь на рассылку</h2>
         <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
-        <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
-          <span class="subscribe-form-text">Подписаться</span>
+        <form class="footer-subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
+          <label for="footer-subscribe-email">Email</label>
+          <input class="field" placeholder="email@example.com" type="email" name="footer-subscribe-email" id="footer-subscribe-email" required>
+          <button class="button footer-subscribe-button" type="submit">
+            <span class="footer-subscribe-form-text">Подписаться</span>
+          </button>
         </form>
       </section>
+  
+      <section class="footer-social">
+        <h2 class="visually-hidden">Социальные сети</h2>
+        <ul class="footer-social-list">
+          <li class="footer-social-item">
+            <a class="button" href="#">
+              <span class="visually-hidden">ВКонтакте</span>
+            </a>
+          </li>
+          <li class="footer-social-item">
+            <a class="button" href="#">
+              <span class="visually-hidden">Телеграмм</span>
+            </a>
+          </li>
+          <li class="footer-social-item">
+            <a class="button" href="#">
+              <span class="visually-hidden">Ютуб</span>
+            </a>
+          </li>
+        </ul>
+      </section>
 
-    </main>
+      <section class="footer-contacts">
+        <h2 class="visually-hidden">Контакты</h2>
+        <address class="footer-contacts-address">
+          <a class="footer-contacts-address-phone" href="tel:+78005558628">+7 800 555-86-28</a>
+        </address>
+      </section>
+
+      <section class="footer-logo">
+        <h2 class="visually-hidden">Логотип</h2>
+        <img class="footer-logo-img" src="#" alt="HTML Academy">
+      </section>
+
+    </footer>
+
   </body>
 </html>
