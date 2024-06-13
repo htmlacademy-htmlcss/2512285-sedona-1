@@ -108,7 +108,7 @@
           </fieldset>
 
           <button class="button" type="submit">Применить</button>
-          <button class="button" type="cancel">Сбросить</button>
+          <button class="button" type="reset">Сбросить</button>
         </form>
 
         <p class="hotels-result">Найдено гостиниц: 38</p>
@@ -145,12 +145,7 @@
             <span class="product-card-price">От 4000 ₽</span>
             <a class="product-card-button button" href="#">Подробнее</a>
             <a class="product-card-button button" href="#">Избранное</a>
-            <a class="product-1-star button" href="#"></a>
-            <a class="product-2-star button" href="#"></a>
-            <a class="product-3-star button" href="#"></a>
-            <a class="product-4-star button" href="#"></a>
-            <a class="product-5-star button" href="#"></a>
-            <span class="rating-stars visually-hidden">Рейтинг отеля 4 звезды.</span>
+            <span class="rating-stars-4 visually-hidden">Рейтинг отеля 4 звезды.</span>
             <span class="rate">Рейтинг: 8,5</span>
           </li>
           <li class="product-card">
@@ -162,12 +157,7 @@
             <span class="product-card-price">От 5000 ₽</span>
             <a class="product-card-button button" href="#">Подробнее</a>
             <a class="product-card-button button" href="#">Избранное</a>
-            <a class="product-1-star button" href="#"></a>
-            <a class="product-2-star button" href="#"></a>
-            <a class="product-3-star button" href="#"></a>
-            <a class="product-4-star button" href="#"></a>
-            <a class="product-5-star button" href="#"></a>
-            <span class="rating-stars visually-hidden">Рейтинг отеля 4 звезды.</span>
+            <span class="rating-stars-4 visually-hidden">Рейтинг отеля 4 звезды.</span>
             <span class="rate">Рейтинг: 9,2</span>
           </li>
           <li class="product-card">
@@ -179,12 +169,7 @@
             <span class="product-card-price">От 2500 ₽</span>
             <a class="product-card-button button" href="#">Подробнее</a>
             <a class="product-card-button button" href="#">Избранное</a>
-            <a class="product-1-star button" href="#"></a>
-            <a class="product-2-star button" href="#"></a>
-            <a class="product-3-star button" href="#"></a>
-            <a class="product-4-star button" href="#"></a>
-            <a class="product-5-star button" href="#"></a>
-            <span class="rating-stars visually-hidden">Рейтинг отеля 3 звезды.</span>
+            <span class="rating-stars-3 visually-hidden">Рейтинг отеля 3 звезды.</span>
             <span class="rate">Рейтинг: 6,9</span>
           </li>
           <li class="product-card">
@@ -196,12 +181,7 @@
             <span class="product-card-price">От 1500 ₽</span>
             <a class="product-card-button button" href="#">Подробнее</a>
             <a class="product-card-button button" href="#">Избранное</a>
-            <a class="product-1-star button" href="#"></a>
-            <a class="product-2-star button" href="#"></a>
-            <a class="product-3-star button" href="#"></a>
-            <a class="product-4-star button" href="#"></a>
-            <a class="product-5-star button" href="#"></a>
-            <span class="rating-stars visually-hidden">Рейтинг отеля 2 звезды.</span>
+            <span class="rating-stars-2 visually-hidden">Рейтинг отеля 2 звезды.</span>
             <span class="rate">Рейтинг: 5,0</span>
           </li>
         </ul>
@@ -237,11 +217,9 @@
         <h2 class="footer-subscribe-title">Подпишитесь на рассылку</h2>
         <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form class="footer-subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
-          <label for="footer-subscribe-email">Email</label>
-          <input class="field" placeholder="email@example.com" type="email" name="footer-subscribe-email" id="footer-subscribe-email" required>
-          <button class="button footer-subscribe-button" type="submit">
-            <span class="footer-subscribe-form-text">Подписаться</span>
-          </button>
+          <span class="visually-hidden">Ввод адреса электронного почтового ящика</span>
+          <input placeholder="Ваш e-mail" type="email" name="footer-subscribe-email" required></input>
+          <button class="button footer-subscribe-button" type="submit">Подписаться</button>
         </form>
       </section>
 
@@ -269,13 +247,12 @@
       <section class="footer-contacts">
         <h2 class="visually-hidden">Контакты</h2>
         <address class="footer-contacts-address">
-          <a class="footer-contacts-address-phone" href="tel:+78005558628">+7 800 555-86-28</a>
+          <a class="footer-contacts-address-phone" href="tel:+78128121212">+7 812 812-12-12</a>
         </address>
-      </section>
-
-      <section class="footer-logo">
-        <h2 class="visually-hidden">Логотип</h2>
         <img class="footer-logo-img" src="#" alt="HTML Academy">
+        <a class="footer-logo-icon" href="https://htmlacademy.ru/">
+          <span class="visually-hidden">Логотип html-academy</span>
+        </a>
       </section>
 
     </footer>
