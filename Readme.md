@@ -1,6 +1,6 @@
 # Личный проект «Седона»
 
-* Студент: [Неопознанный енот](https://up.htmlacademy.ru/htmlcss-individual/1/user/2512285).
+* Студент: [Владимир Слуцкий](https://up.htmlacademy.ru/htmlcss-individual/1/user/2512285).
 * Наставник: [Артём Картавый](https://htmlacademy.ru/profile/artem_k).
 
 ---
